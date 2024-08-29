@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+/* Navbaar Start here */
+.nav-contaier{
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* align-items: center; */
+}
+.nav-logo{
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+.Club-heading{
+    font-size: 35px;
+    position: relative;
+    top: 5px;  
+}
+
+.nav-link{
+    margin-top: 10px;
+}
+
+.nav-link ul li{
+    font-size: 23px;
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+}
+.nav-link ul li:hover{
+    cursor:pointer;
+
+}
+/* Navbaar End Here */
+
+
+.clg-banner{
+    height: 170px;
+    width: 100vw;
+}
+
+/* About start here */
+
+.about{
+    text-align: center;
+    margin-top: 100px;
+    height: fit-content;
+}
+
+.heading{
+    font-size: 35px;
+    width: fit-content;
+    margin:auto;
+}
+.about p{
+    margin: 10px;
+    font-size: 25px;
+}
+/* About End Here */
+
+/* Event Start Here */
+.event{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Team start Here */
+.team{
+    text-align: center;
+    margin-top: 100px;
+}
+.team-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 35px;}
