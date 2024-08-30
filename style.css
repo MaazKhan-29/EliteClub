@@ -4,18 +4,21 @@
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .main{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
 /* Navbaar Start here */
-.nav-contaier{
+.nav-container{
     width: 100%;
     /* background-color: orange; */
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
     /* align-items: center; */
 }
 .nav-logo{
@@ -92,3 +95,5 @@
 }
 .card{
     margin-top: 35px;}
+
+
