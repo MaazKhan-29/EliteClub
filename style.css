@@ -39,6 +39,11 @@
         height: 300px;
     width: 400px;
     }
+    @media  screen and (max-width:430px) {
+        height: 220px;
+    width: 320px;
+    margin: auto;
+    }
 }
 .about-img{
     width: 500px;
@@ -49,7 +54,11 @@
         height: 300px;
     width: 400px;
     }
-
+    @media  screen and (max-width:430px) {
+        height: 220px;
+    width: 320px;
+    margin: auto;
+    }
 }
 .about-para{
     height: fit-content;
