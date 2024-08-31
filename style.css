@@ -14,6 +14,9 @@
     position: relative;
     height: fit-content;
     /* background-color: pink; */
+    @media screen and (max-width:450px) {
+        margin-top: 60px;
+    }
    
 }
 .heading{
@@ -99,6 +102,6 @@
 
 
 #headerCarousel {
-    height: 600px;
+    height: fit-content;
     overflow: hidden;
 }
