@@ -3,22 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px rgba(116, 116, 116, 0.842);
 }
 
 nav{
-    box-shadow: 2px 2px 20px rgb(87, 86, 86);
+    box-shadow: 2px 2px 20px rgba(151, 151, 151, 0.541);
 }
 /* About start here */
 
 .about{
+    
     text-align: center;
     margin-top: 100px;
     position: relative;
     height: fit-content;
     /* background-color: pink; */
     border-radius: 20px;
-    box-shadow: 1.5px 1.5px 10px rgba(102, 102, 102, 0.541);
+    box-shadow: 1px 1px 15px rgba(151, 151, 151, 0.541);
 
     animation: animate ease-in;
     animation-timeline: view();
@@ -47,6 +48,7 @@ nav{
 .ab-img{
     width: 500px;
     height: 350px;
+    border-radius: 10px;
     @media  screen and (max-width:1000px) {
         height: 300px;
     width: 400px;
@@ -60,6 +62,7 @@ nav{
 .about-img{
     width: 500px;
     height: 350px;
+    
     /* background-color: orange; */
     margin-top: 20px;
     @media  screen and (max-width:1000px) {
@@ -110,7 +113,7 @@ nav{
     animation: animate ease-in;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.541);
+    box-shadow: 1px 1px 15px rgba(151, 151, 151, 0.541);
 
 }
 
@@ -120,6 +123,9 @@ nav{
     height: fit-content;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(88, 88, 88, 0.541);
+
     @media screen and (max-width:450px) {
         top: 150px;
         margin-bottom: 300px;
