@@ -24,7 +24,6 @@ nav{
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     @media screen and (max-width:600px) {
-        margin-top: 60px;
         margin-top: 200px;
     }
 }
