@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px grey;
 }
 
-
+nav{
+    box-shadow: 2px 2px 20px rgb(87, 86, 86);
+}
 /* About start here */
 
 .about{
@@ -14,14 +17,18 @@
     position: relative;
     height: fit-content;
     /* background-color: pink; */
-    
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(102, 102, 102);
+
     animation: animate linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-    @media screen and (max-width:450px) {
+    animation-range: entry 0% cover 40%;
+    @media screen and (max-width:600px) {
         margin-top: 60px;
+        animation-name:none;
     }
 }
+
 .heading{
     font-size: 35px;
     width: fit-content;
@@ -101,9 +108,10 @@
 }
 .card{
     margin-top: 35px;
-    animation: animate linear;
+    animation: animate ease-in;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
+    box-shadow: 2px 2px 10px rgb(102, 102, 102);
 }
 
 
@@ -111,6 +119,12 @@
 #headerCarousel {
     height: fit-content;
     overflow: hidden;
+    position: relative;
+    @media screen and (max-width:450px) {
+        top: 150px;
+        margin-bottom: 300px;
+        
+    }
 }
 @keyframes animate {
     from{
