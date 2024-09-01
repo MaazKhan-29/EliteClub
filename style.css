@@ -18,7 +18,7 @@ nav{
     height: fit-content;
     /* background-color: pink; */
     border-radius: 20px;
-    box-shadow: 1.5px 1.5px 10px rgb(102, 102, 102);
+    box-shadow: 1.5px 1.5px 10px rgba(102, 102, 102, 0.541);
 
     animation: animate ease-in;
     animation-timeline: view();
@@ -110,7 +110,8 @@ nav{
     animation: animate ease-in;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-    box-shadow: 2px 2px 10px rgb(102, 102, 102);
+    box-shadow: 1.5px 1.5px 10px rgba(102, 102, 102, 0.541);
+
 }
 
 
