@@ -110,7 +110,7 @@ nav{
     animation: animate ease-in;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-    box-shadow: 1.5px 1.5px 5px rgba(102, 102, 102, 0.541);
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.541);
 
 }
 
