@@ -23,9 +23,9 @@ nav{
     animation: animate ease-in;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
-    @media screen and (max-width:600px) {
-        margin-top: 180px;
-    }
+    /* @media screen and (max-width:600px) {
+    
+    } */
 }
 
 .heading{
